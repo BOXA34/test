@@ -16,6 +16,8 @@ browser.open('https://google.com')
 browser.element('[type="search"]').should(be.blank).type('https://www.dota2.com').press_enter()
 browser.element('[id="search"]').should(have.text('dota2.com'))
 
+def test_big_test():
+    assert 5==5
 
 
 
